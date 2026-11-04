@@ -1,0 +1,10 @@
+.activity-item {
+  list-style: none;
+  padding: 0.5rem 0;
+  font-size: 0.9rem;
+  color: #cccccc;
+}
+
+.activity-item p {
+  margin: 0;
+}

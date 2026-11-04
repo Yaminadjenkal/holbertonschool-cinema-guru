@@ -29,3 +29,43 @@
 .logout-span:hover {
   opacity: 0.8;
 }
+
+.sidebar {
+  width: 250px;
+  background-color: #222222;
+  color: #ffffff;
+  min-height: calc(100vh - 70px);
+  padding: 1rem;
+  transition: width 0.3s ease;
+}
+
+.sidebar.small {
+  width: 80px;
+}
+
+.sidebar-navigation {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+.sidebar-navigation li {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.sidebar-navigation li:hover,
+.sidebar-navigation li.active {
+  background-color: #333333;
+}
+
+.sidebar-toggle {
+  cursor: pointer;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: flex-end;
+}

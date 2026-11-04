@@ -4,3 +4,8 @@
   width: 100%;
   min-height: 100vh;
 }
+
+.dashboard-body {
+  display: flex;
+  flex: 1;
+}
