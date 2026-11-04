@@ -9,3 +9,10 @@
   display: flex;
   flex: 1;
 }
+
+.dashboard-content {
+  flex: 1;
+  padding: 1.5rem;
+  background-color: #141414;
+  color: #ffffff;
+}
