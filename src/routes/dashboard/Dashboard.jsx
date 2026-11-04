@@ -2,11 +2,9 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import './dashboard.css';
 import Header from '../../components/navigation/Header';
 import SideBar from '../../components/navigation/SideBar';
-
-// Composants temporaires pour les routes (seront créés dans les tâches suivantes)
-const HomePage = () => <div>Home Page</div>;
-const Favorites = () => <div>Favorites Page</div>;
-const WatchLater = () => <div>Watch Later Page</div>;
+import HomePage from './HomePage';
+import Favorites from './Favorites';
+import WatchLater from './WatchLater';
 
 export default function Dashboard({ userUsername, setIsLoggedIn }) {
   return (
