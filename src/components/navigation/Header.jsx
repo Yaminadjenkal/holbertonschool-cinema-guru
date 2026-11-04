@@ -1,5 +1,5 @@
 import './navigation.css';
-import { FontAwesomeIcon } from '@fontawesome/react-fontawesome';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faSignOutAlt } from '@fortawesome/free-solid-svg-icons';
 
 export default function Header({ userUsername, setIsLoggedIn }) {
